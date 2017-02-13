@@ -36,7 +36,7 @@ public class MBTweenBaseEditor : Editor
             tween.easingMethod == EasingMethod.EaseOut ||
             tween.easingMethod == EasingMethod.EaseInOut)
         {
-            tween.easingType = (PGR.EasingType)EditorGUILayout.EnumPopup("Easing Type", tween.easingType);
+            tween.easingType = (EasingType)EditorGUILayout.EnumPopup("Easing Type", tween.easingType);
         }
 
         tween.looping = (LoopType)EditorGUILayout.EnumPopup("Loop Type", tween.looping);

@@ -2,7 +2,6 @@
 using UnityEngine.Events;
 using System.Collections;
 using System;
-using PGR;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
